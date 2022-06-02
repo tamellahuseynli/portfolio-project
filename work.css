@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    box-sizing: border-box;
+}
+/* header */
+.work-header nav ul{
+   display: flex;
+   justify-content: flex-end;
+   list-style: none;
+}
+.work-header{
+    margin: 25px 50px 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.work-header nav ul li:not(:last-child){
+    margin-right: 20px;
+}
+.work-header nav ul li {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #21243D;
+}
+/* header */
+/* main */
+.work-title{
+    margin: 160px 0 25px 235px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+.work-img{
+    width: 246px;
+    height: 180px;
+    margin-left:235px;
+    object-fit: cover;
+    object-position: 50px 50px; 
+    margin-bottom: 47px; 
+}
+.work-img img{
+    width:100%;
+    height:100%;
+    border-radius:5px;
+}
+.w-items{
+    border-bottom: 1px solid #E0E0E0;
+}
+.w-item{
+    display:flex;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    margin-bottom:31;
+    margin-top: 44px;  
+}
+.w-info{
+    padding-left: 18px;
+}
+.w-info-title{
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+margin-bottom: 16px;
+}
+.w-info-timebox{
+    margin-bottom: 19px;
+}
+.w-time{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    background: #142850;
+    color: #fff;
+    padding:0 10px;
+    border-radius: 50px;
+}
+.w-category{
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #8695A4;
+margin-left: 26px;
+}
+.w-desc{
+width: 700px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+letter-spacing: 1px;
+
+}
+/* main */
+/* footer */
+.f-head{
+    width: 100%;
+}
+.footer-wrapper{
+    justify-content: center;
+    text-align: center;
+    line-height: 26px;
+    padding: 30px;
+    margin-top: 60px;
+}
+.footer-sosial i{
+    font-size:30px ;
+}
+.footer-sosial :not(:last-child){
+    margin-right: 35px;
+}
+.footer-desc{
+    padding-bottom: 40px;
+    padding-top: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+/* footer */
